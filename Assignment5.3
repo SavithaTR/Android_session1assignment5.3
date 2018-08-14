@@ -1,0 +1,27 @@
+1. Test whether two vectors are exactly equal (element by element).
+vec1 = c(rownames(mtcars[1:15,]))
+vec2 = c(rownames(mtcars[11:25,]))
+
+Ans:  identical(vec1, vec2)
+
+
+2. Sort the character vector in ascending order and descending order.
+vec1 = c(rownames(mtcars[1:15,]))
+vec2 = c(rownames(mtcars[11:25,]))
+
+Ans: sort(vec1)
+        sort(vec1, decreasing = TRUE)
+
+3. What is the major difference between str() and paste() show an example.
+     NULL and character (0) are removed by str c().
+    str usage: str(object, …)
+    paste usage: paste (…, sep = " ", collapse = NULL)
+
+Examples: str(vec1, vec2)
+                 paste(vec1, vec2)
+
+4. Introduce a separator when concatenating the strings.
+
+Ans: 
+       vec1=c("my name is savitha")
+        vec2=c("i'm a working professional")
